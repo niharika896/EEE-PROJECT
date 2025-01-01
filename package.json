@@ -1,0 +1,27 @@
+{
+  "name": "eee-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "mqtt": "^5.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.8.1"
+  }
+}

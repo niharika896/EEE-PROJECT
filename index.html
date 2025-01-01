@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Farm Monitoring</h1>
+    <div class="flex">
+        <!-- Pie Chart Box -->
+        <div class="box pie">
+            <canvas id="pieChart" width="200" height="200"></canvas>
+        </div>
+        
+        <!-- Info Box: Temperature & Humidity -->
+        <div class="box info">
+            <h3>Temperature: <span id="temperature">--</span>°C</h3>
+            <h3>Humidity: <span id="humidity">--</span>%</h3>
+        </div>
+
+        <!-- Distance Box -->
+        <div class="box distance">
+            <h3>Distance: <span id="distance">--</span> cm</h3>
+        </div>
+    </div>
+
+    <!-- Line Chart Section -->
+    <div class="line-chart">
+        <canvas id="lineChart" width="400" height="200"></canvas>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="./scripts.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

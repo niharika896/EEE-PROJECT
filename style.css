@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.line-chart {
+    margin: 20px;
+}
